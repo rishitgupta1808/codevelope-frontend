@@ -1,0 +1,37 @@
+.user_panel_container{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    
+}
+.user_panel_heading{
+    justify-content: center;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.user_box_heading{
+    color : #706C64;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 2em;
+    margin-bottom: 5px;
+}
+
+.user_panel_box{
+    border: var(--border-color) 1px solid;
+    border-radius: 3px;
+    padding : 2em 2em;
+    margin-bottom: 1.5em;
+}
+
+.user_inbox_heading{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.user_inbox_message{
+    font-size: 16px;
+    font-weight: 300;
+    color : #706C64;
+}

@@ -1,0 +1,25 @@
+.create_box{
+    display: flex;
+    border: var(--border-color) 1px solid;
+    border-radius: 3px;
+    padding : 3em 3em;
+}
+
+.step_container{
+    font-size: 10px;
+    color : #6F6C64;
+    font-weight: 600;
+}
+
+.create_heading{
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.create_image_container{
+padding : 2em
+}
+
+.create_category_select{
+    font-size: 30px;
+}

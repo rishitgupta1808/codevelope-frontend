@@ -1,24 +1,22 @@
-import logo from './logo.svg';
+import React from "react";
 import './App.css';
+import Home from "./pages";
+import Categories from "./pages/create/categories";
+import Currency from "./pages/create/currency";
+import { Switch,Route } from "react-router-dom";
+import TopBar from "./components/TopBar";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <TopBar>
+    <Switch>
+    <Route exact path='/' component = {Home}/>
+    <Route exact path='/create/categories' component = {Categories}/>
+    <Route exact path = '/craete/currrency' component={Currency}/>
+    </Switch>
+    </TopBar>
+    </>
   );
 }
 

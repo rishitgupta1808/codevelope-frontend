@@ -1,0 +1,13 @@
+.input_post_title{
+    border:0px;
+    width: 100%;
+    padding :5px;
+    font-size:1.625rem !important;
+    font-weight: 700;
+}
+
+.input_post_title::-webkit-input-placeholder {
+    font-size:1.625rem !important;
+    font-weight: 700;
+    color: #B1ACA3
+}

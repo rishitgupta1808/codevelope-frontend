@@ -1,0 +1,3 @@
+export const paymentAddress = "0x4FDA1e3E71C8320F8338D17F8Ac7e098B1b27f17"
+export const deploymentAddress = "0xc4e436A414D420DF9F98c9c0E2009f36CC59e818"
+export const paymentForPostAddress = "0xA47FD9aB938Dc1724f42188157Dca0E03123558a"

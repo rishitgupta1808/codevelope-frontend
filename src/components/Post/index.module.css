@@ -1,0 +1,56 @@
+.post_panel_container{
+    margin: 1em 0em 2em 0em;  
+   
+}
+
+.post_panel_box{
+    border: var(--border-color) 1px solid;
+    border-radius: 5px;
+    padding : 3em;
+    
+}
+
+.post_type_panel_box{
+    border: var(--border-color) 1px solid;
+    border-radius: 0px;
+    padding : 3em;
+    
+}
+.post_type_panel_box:hover{
+    background-color: #e7e7e7;
+    cursor: pointer;
+}
+
+.post_panel_box_heading{
+    border-bottom: var(--border-color) 1px solid;
+    font-size: 16px;
+    font-weight: 600;
+    padding :1em;
+    display: flex;
+}
+
+.post_panel_inbox_heading{
+    font-size: 16px;
+    font-weight: 600;
+    color : #706C64;
+    padding-top: 1.8em;
+    padding-left: 0.5em;
+}
+
+.user_panel_box{
+    border: var(--border-color) 1px solid;
+    border-radius: 3px;
+    padding : 2em 2em;
+    margin-top: 3em;
+}
+
+.user_inbox_heading{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.user_inbox_message{
+    font-size: 16px;
+    font-weight: 300;
+    color : #706C64;
+}
